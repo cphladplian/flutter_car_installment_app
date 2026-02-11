@@ -110,7 +110,7 @@ class _CarInstallmentUiState extends State<CarInstallmentUi> {
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(16),
                 border: Border.all(
-                  color: Colors.grey,
+                  color: Colors.deepPurple,
                   width: 2,
                 ),
               ),
