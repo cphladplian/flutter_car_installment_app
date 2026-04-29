@@ -1,16 +1,38 @@
-# flutter_car_installment_app
+## 🚗 Car Installment Calculator App
+A Flutter application for calculating monthly car installment payments.
 
-A new Flutter project.
+## 🚀 Features
+- Calculate monthly installment
+- Select down payment (%)
+- Select installment period (months)
+- Input interest rate
+- Reset form
+- Splash screen
 
-## Getting Started
+## ⚙️ Installation
+- git clone https://github.com/your-username/flutter_car_installment_app.git
+- cd flutter_car_installment_app
+- flutter pub get
+- flutter run
 
-This project is a starting point for a Flutter application.
+## 🧮 Formula
+{Finance} = P - (P \cdot d) \quad ; \quad \text{Interest} = \text{Finance} \cdot r \cdot t \quad ; \quad M = \frac{\text{Finance} + \text{Interest}}{n}
 
-A few resources to get you started if this is your first Flutter project:
+Where:
+- **P** = Car price
+- **d** = Down payment (%)
+- **r** = Interest rate per year
+- **t** = Time (years)
+- **n** = Number of months
+- **M** = Monthly payment
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 🛠️ Tech Stack
+- Flutter
+- Dart
+- intl
+- google_fonts
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 📱 Screenshots
+<img width="250" alt="localhost_50806_ (3)" src="https://github.com/user-attachments/assets/4479d652-5279-45fd-aed8-b541f8a6dce0" />
+<img width="250" alt="localhost_50806_ (2)" src="https://github.com/user-attachments/assets/2df40436-90b8-44cf-bd53-5d6502be44ad" />
+
